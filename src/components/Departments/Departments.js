@@ -13,12 +13,12 @@ const Departments = () => {
     }, [])
 
     return (
-        <div>
+        <div className="container my-3">
             <div className="text-center">
                 <h4>Modern Equipment</h4>
                 <h1>Departments</h1>
             </div>
-            <div className="item-container">
+            <div className="row">
                 {
                     items.map(item =>
                         <Items

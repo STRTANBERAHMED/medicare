@@ -6,7 +6,7 @@ const Banner = () => {
     return (
         <div className="container">
             <div className="d-flex">
-                <div className="banner p-5 row">
+                <div className="p-5 row">
                     <div className="col-md-7 text-white text-start text">
                         <h3>Here at "MEDICARE" We Offer</h3>
                         <h1>World Class Medical Treatment</h1>
