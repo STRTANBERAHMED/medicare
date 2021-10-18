@@ -1,0 +1,26 @@
+[
+    {
+        "_id": "616d5d250c822b7725d5fbda",
+        "name": "Cardiology"
+    },
+    {
+        "_id": "616d5d25a36773b0e5f174e3",
+        "name": "Ophthalmology"
+    },
+    {
+        "_id": "616d5d25f8b36a204545816f",
+        "name": "Dental"
+    },
+    {
+        "_id": "616d5d2569efc9c72feb7e93",
+        "name": "Diagnostics"
+    },
+    {
+        "_id": "616d5d25dc22d439beb255b0",
+        "name": "For disabled"
+    },
+    {
+        "_id": "616d5d25125809f5ffdc2a30",
+        "name": "Laboratory"
+    }
+]
