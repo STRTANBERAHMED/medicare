@@ -7,6 +7,7 @@ import Footer from './components/Footer/Footer';
 import Services from './components/Services/Services';
 import About from './components/About/About';
 import Login from './components/Login/Login';
+import Register from './components/Register/Register';
 
 
 
@@ -30,6 +31,9 @@ function App() {
           </Route>
           <Route path="/login">
             <Login></Login>
+          </Route>
+          <Route path="/register">
+            <Register></Register>
           </Route>
           <Route path="*">
             <NotFound></NotFound>

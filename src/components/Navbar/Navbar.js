@@ -1,9 +1,11 @@
 import React from 'react';
 import { Link } from 'react-router-dom';
+import useFirebase from '../../Hooks/useFirebase';
 import './Navbar.css';
 
 
 const Navbar = () => {
+    const { user } = useFirebase();
     return (
         <div>
             <div className="menu-container">
@@ -22,6 +24,7 @@ const Navbar = () => {
                 <Link to="/login" className="header-items">
                     Login
                 </Link>
+                <p>{user.email}</p>
             </div>
         </div>
     );
