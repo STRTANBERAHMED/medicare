@@ -10,7 +10,7 @@ const Banner = () => {
                     <div className="col-md-7 text-white text-start text">
                         <h3>Here at "MEDICARE" We Offer</h3>
                         <h1>World Class Medical Treatment</h1>
-                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Mauris neque enim, iaculis sit amet lobortis a, laoreet in magna. Integer ultrices volutpat elit non tempus. Mauris placerat, lectus in lacinia pretium, quam lectus porttitor sapien.</p>
+                        <p>The primary goal of our practice is to provide a full range of primary care services to our patients and to do so in a caring and compassionate manner using the latest advances in medical technology and knowledge. As primary care physicians, we are trained to carefully assess a patient’s needs and, working with our patients, determine the most appropriate plan of care or treatment.</p>
                     </div>
                     <div className="col-md-5">
                         <img style={{ width: '25%' }} src={image} alt="" />

@@ -3,9 +3,10 @@ import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faHeartbeat } from '@fortawesome/free-solid-svg-icons';
 import './ITems.css';
 import { Card, Button } from 'react-bootstrap';
+import { Link } from 'react-router-dom';
 
 const Items = (props) => {
-    const { name } = props.item || {}
+    const { name, picture, about } = props.item || {}
 
     // font awesome
     const heartbeat = <FontAwesomeIcon icon={faHeartbeat} />
@@ -14,11 +15,14 @@ const Items = (props) => {
         <div className="col-md-4 item">
             <div className="p-2">
                 <Card style={{ width: '18rem' }}>
-                    <h2>{heartbeat}</h2>
+                    <Card.Img variant="top" src={picture} />
                     <Card.Body>
                         <Card.Title>{name}</Card.Title>
-                        <Button
-                            variant="dark">visit</Button>
+                        <Card.Text>
+                            <p>price: ${about}</p>
+                        </Card.Text>
+                        <Link to='/services'><Button
+                            variant="dark">visit</Button></Link>
                     </Card.Body>
                 </Card>
             </div>

@@ -1,12 +1,12 @@
 import React from 'react';
+import Appbar from '../Appbar/Appbar';
 import Banner from '../Banner/Banner';
-import Navbar from '../Navbar/Navbar';
 import './Header.css';
 
 const Header = () => {
     return (
         <div className="header">
-            <Navbar></Navbar>
+            <Appbar></Appbar>
             <Banner></Banner>
         </div>
     );

@@ -12,19 +12,20 @@ const Register = () => {
     const [error, setError] = useState("");
     const auth = getAuth();
 
-    const handleEmailChange = (e) => {
+    const handleEmailChange = (e, f) => {
         setEmail(e.target.value);
     };
     const handlePasswordChange = (e) => {
         if (e.target.value.length < 6) {
-            console.log("minimum 6 character");
+            setError("minimum 6 character");
         } else {
             setPassword(e.target.value);
         }
     };
 
 
-    const handlRegister = () => {
+    const handlRegister = (f) => {
+
         createUserWithEmailAndPassword(auth, email, password)
             .then((result) => {
                 const { email, displayName, photoURL } = result.user;
@@ -53,7 +54,6 @@ const Register = () => {
     return (
         <div>
             <h1>Please Register</h1>
-            <h2>{user.email}</h2>
             <input onChange={handleEmailChange} type="email" placeholder="Enter Your Email" required />
             <br />
             <input onChange={handlePasswordChange} className="mt-2" type="password" placeholder="Enter Your Password" required />
