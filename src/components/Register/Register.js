@@ -6,13 +6,15 @@ import { Link } from 'react-router-dom';
 initializeAuthentication();
 
 const Register = () => {
+
+    // hooks
     const [email, setEmail] = useState("");
     const [password, setPassword] = useState("");
     const [user, setUser] = useState({});
     const [error, setError] = useState("");
     const auth = getAuth();
 
-    const handleEmailChange = (e, f) => {
+    const handleEmailChange = (e) => {
         setEmail(e.target.value);
     };
     const handlePasswordChange = (e) => {
@@ -24,7 +26,7 @@ const Register = () => {
     };
 
 
-    const handlRegister = (f) => {
+    const handlRegister = () => {
 
         createUserWithEmailAndPassword(auth, email, password)
             .then((result) => {

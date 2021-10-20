@@ -1,0 +1,20 @@
+[
+    {
+        "_id": "616fdb3d83c9ae57ad34ccde",
+        "picture": "https://www.sriramakrishnahospital.com/wp-content/uploads/2020/09/ortho1.png",
+        "name": "Dr. Nikhil Kumar",
+        "specialist": "Heart Specialist"
+    },
+    {
+        "_id": "616fdb3d16f43b2e5234ad5d",
+        "picture": "https://imagesx.practo.com/providers/2bdabc1b-5d12-41df-ab7e-8577f94a9e7e.jpg?i_type=t_100x100-4x",
+        "name": "Dr. Amitabh Parthi",
+        "specialist": "Dentist"
+    },
+    {
+        "_id": "616fdb3dc710bb8aa2d01098",
+        "picture": "https://www.fmri.in/sites/default/files/styles/230_227_/public/doctor_images/Rajiv-Kumar-Erry.jpg?itok=oKfYTHuf",
+        "name": "Dr. Raman Abhi",
+        "specialist": "Orthopedic Specialist"
+    }
+]

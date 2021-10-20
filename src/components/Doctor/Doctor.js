@@ -1,10 +1,8 @@
 import React from 'react';
-import './ITems.css';
-import { Card, Button } from 'react-bootstrap';
-import { Link } from 'react-router-dom';
+import { Card } from 'react-bootstrap';
 
-const Items = (props) => {
-    const { name, picture, about } = props.item || {}
+const Doctor = (props) => {
+    const { name, picture, specialist } = props.doctor || {}
 
 
     return (
@@ -15,10 +13,8 @@ const Items = (props) => {
                     <Card.Body>
                         <Card.Title>{name}</Card.Title>
                         <Card.Text>
-                            <p>{about}</p>
+                            <p>{specialist}</p>
                         </Card.Text>
-                        <Link to='/services'><Button
-                            variant="dark">visit</Button></Link>
                     </Card.Body>
                 </Card>
             </div>
@@ -26,4 +22,4 @@ const Items = (props) => {
     );
 };
 
-export default Items;
+export default Doctor;
