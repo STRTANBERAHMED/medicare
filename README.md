@@ -13,3 +13,8 @@ we have more then 150 rooms in our hospital. We clean our rooms every day.
 Our hospital patients are fully satisfied about hospital.
 # `Awards`
 Our doctors are world class and they are very kind with their patients. This is the reason why our doctors got more the 700 medals.
+# `Overview`
+* A fully functional frontend web application.
+* It’s a Healthcare site. Without login, users cannot see the details about departments.
+* Firebase is used for authentication. Responsive for mobile and computer.
+* Used Tools: VS Code,  React Js, Bootstrap, Firebase.
